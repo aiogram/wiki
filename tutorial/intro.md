@@ -2,15 +2,38 @@
 title: Introduction | Tutorial
 description: 
 published: true
-date: 2020-05-05T17:39:49.098Z
+date: 2020-05-05T19:11:15.715Z
 tags: tutorial
 ---
 
-# Intro
+# Introduction
 Hello and welcome to aiogram tutorial! We'll learn how to create our first bot step-by-step with examples and explanations. So, **let's start!**
 
 > In this tutorial we assume you know how to write basic code in Python, what is async and how does it work.
 {.is-warning}
+
+# Installation
+Before we start, we need to install aiogram. There are several ways of doing this.
+
+> aiogram v3.0, which is used in this tutorial, is still in development. Use it with caution.
+{.is-warning}
+
+## From private PyPI
+```
+pip install --extra-index-url https://dev-docs.aiogram.dev/simple --pre aiogram
+```
+> Only the latest successful build is available in this index. All previous builds are removed before uploading a new one. All unit-tests are guaranteed to pass before publishing package.
+{.is-info}
+
+
+## From sources
+Requirements: `git`, `pip`
+```
+git clone https://github.com/aiogram/aiogram
+cd aiogram
+git checkout dev-3.x
+pip install .
+```
 
 # Quickstart
 Let's begin our tutorial with a simple echo bot.
@@ -70,10 +93,13 @@ async def echo(msg: Message):
 > Why we wrote `msg: Message` and what does it mean in Python? `Message` is an optional _type hint_, which helps your linter or IDE check the code and give suggestions on methods and fields for `msg` parameter.
 {.is-info}
 
-..., make our handler reply to just received message (`msg.reply`) with a text of just received message (`msg.text`):
+..., make our handler reply (`msg.reply`) to just received message with a text of the latter (`msg.text`):
 ```python
     await msg.reply(msg.text)
 ```
+> `msg.reply` is a shortcut for getting current bot instance and executing `send_message` on it with already filled `chat_id` and `reply_to_message_id` parameters.
+{.is-info}
+
 
 And finally, start long-polling to get updates:
 ```python
@@ -83,7 +109,6 @@ if __name__ == "__main__":
 
 > Webhook mode is under development
 {.is-warning}
-
 
 > `if __name__ == "__main__"` is a well-known "guard" that prevents running some code when the module was imported ([more info](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)).
 {.is-info}
