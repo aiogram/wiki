@@ -2,7 +2,7 @@
 title: Introduction | Tutorial
 description: 
 published: true
-date: 2020-05-05T19:11:15.715Z
+date: 2020-05-05T19:20:23.099Z
 tags: tutorial
 ---
 
@@ -10,7 +10,7 @@ tags: tutorial
 Hello and welcome to aiogram tutorial! We'll learn how to create our first bot step-by-step with examples and explanations. So, **let's start!**
 
 > In this tutorial we assume you know how to write basic code in Python, what is async and how does it work.
-{.is-warning}
+{.is-success}
 
 # Installation
 Before we start, we need to install aiogram. There are several ways of doing this.
