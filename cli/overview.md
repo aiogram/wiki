@@ -2,7 +2,7 @@
 title: CLI Overview
 description: 
 published: true
-date: 2020-05-06T23:03:12.853Z
+date: 2020-05-06T23:12:03.383Z
 tags: cli
 ---
 
@@ -10,14 +10,18 @@ tags: cli
 
 Command line interface for developers
 
-Works only with [aiogram](https://github.com/aiogram/aiogram) 3.0+ (Is under development)
+ 
+> Works only with [aiogram](https://github.com/aiogram/aiogram) 3.0+ (Is under development)
+{.is-warning}
 
 Here is only bootstrap for CLI interface with extensions based on [pkg_resources](https://setuptools.readthedocs.io/en/latest/pkg_resources.html)
 
 ## Installation
 
 ### From PyPi
-`pip install --extra-index-url https://dev-docs.aiogram.dev/simple --pre aiogram-cli`
+```bash
+pip install --extra-index-url https://dev-docs.aiogram.dev/simple --pre aiogram-cli
+```
 
 ### Poetry
 
@@ -29,7 +33,10 @@ url = "https://dev-docs.aiogram.dev/simple"
 secondary = true
 ```
 
-And then run: `poetry add -D aiogram-cli`
+And then run:
+```bash
+poetry add -D aiogram-cli
+```
 
 ## Extensions
 
@@ -70,5 +77,5 @@ This application is based on [cleo](https://cleo.readthedocs.io/en/latest/) fram
 1. callable which accepts `app: cleo.Application` and returns any of 1-3 formats
 
 Examples:
-- [aiogram_cli.commands.about](https://github.com/aiogram/cli/blob/v0.0.1a3/aiogram_cli/commands/about.py)
-- [aiogram_cli.commands.plugins](https://github.com/aiogram/cli/blob/v0.0.1a3/aiogram_cli/commands/plugins.py)
+- [aiogram_cli.commands.about](https://github.com/aiogram/cli/blob/master/aiogram_cli/commands/about.py)
+- [aiogram_cli.commands.plugins](https://github.com/aiogram/cli/blob/master/aiogram_cli/commands/plugins.py)
