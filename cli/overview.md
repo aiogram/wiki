@@ -2,7 +2,7 @@
 title: CLI Overview
 description: 
 published: true
-date: 2020-05-06T23:12:03.383Z
+date: 2020-05-07T08:44:40.034Z
 tags: cli
 ---
 
@@ -13,8 +13,6 @@ Command line interface for developers
  
 > Works only with [aiogram](https://github.com/aiogram/aiogram) 3.0+ (Is under development)
 {.is-warning}
-
-Here is only bootstrap for CLI interface with extensions based on [pkg_resources](https://setuptools.readthedocs.io/en/latest/pkg_resources.html)
 
 ## Installation
 
