@@ -2,7 +2,7 @@
 title: Introduction | Tutorial
 description: 
 published: true
-date: 2020-05-05T19:20:23.099Z
+date: 2020-05-16T01:16:56.633Z
 tags: tutorial
 ---
 
@@ -48,7 +48,7 @@ bot = Bot("your-bot-token")
 dp = Dispatcher()
 
 
-@dp.message_handler()
+@dp.message()
 async def echo(msg: Message):
     await msg.reply(msg.text)
 
@@ -82,7 +82,7 @@ dp = Dispatcher()
 
 Then we create a very simple text message handler. Firstly, we register it:
 ```python
-@dp.message_handler()
+@dp.message()
 ```
 
 ..., we define it:
