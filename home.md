@@ -2,7 +2,7 @@
 title: Welcome to aiogram
 description: 
 published: true
-date: 2022-01-30T13:57:43.339Z
+date: 2022-01-30T13:58:54.008Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-30T13:51:53.798Z
@@ -12,8 +12,6 @@ dateCreated: 2022-01-30T13:51:53.798Z
 
 It helps you to make your bots faster and simpler.
 
-**aiogram** currently has 2 active versions:
-
-[v2.8 (stable)](https://docs.aiogram.dev/) and [v.3.0a5 (development)](https://dev-docs.aiogram.dev/)
+**aiogram** currently has [v2.x (stable)](https://docs.aiogram.dev/) and [v.3.0b (beta)](https://docs.aiogram.dev/en/dev-3.x/) versions.
 
 For help and collaboration with other **aiogram** developers, please visit our online [English](https://t.me/aiogram) or [Russian](https://t.me/aiogram_ru) community.
