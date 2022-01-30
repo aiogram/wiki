@@ -2,8 +2,10 @@
 title: CLI Overview
 description: 
 published: true
-date: 2020-05-07T08:44:40.034Z
+date: 2022-01-30T13:53:07.120Z
 tags: cli
+editor: markdown
+dateCreated: 2022-01-30T13:51:59.972Z
 ---
 
 # aiogram-cli
