@@ -2,7 +2,7 @@
 title: Домашня сторінка
 description: 
 published: true
-date: 2022-08-14T10:27:51.154Z
+date: 2022-08-14T10:29:09.325Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-14T10:17:32.662Z
