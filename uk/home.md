@@ -2,7 +2,7 @@
 title: Домашня сторінка
 description: 
 published: true
-date: 2022-08-14T10:27:14.166Z
+date: 2022-08-14T10:27:51.154Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-14T10:17:32.662Z
@@ -12,6 +12,15 @@ dateCreated: 2022-08-14T10:17:32.662Z
 
 **aiogram** наразі має 2 активні версії:
 
-[v2.8 (стабільна)](https://docs.aiogram.dev/) та [v.3.0a4 (в розробці)](https://dev-docs.aiogram.dev/)
+[v2.x (стабільна)](https://docs.aiogram.dev/) та [v.3.0b (в розробці)](https://docs.aiogram.dev/en/dev-3.x/)
 
-Для отримання допомоги можна звертатись в офіційні чати [англійськомовної](https://t.me/aiogram) або [російськомовної](https://t.me/aiogram_ru) спільноти.
+Для отримання допомоги можна звертатись в офіційні чати спільноти:
+
+- 🇺🇸 [@aiogram](https://t.me/aiogram)
+- 🇺🇦 [@aiogramua](https://t.me/aiogramua)
+- 🇺🇿 [@aiogram_uz](https://t.me/aiogram_uz)
+- 🇰🇿 [@aiogram_kz](https://t.me/aiogram_kz)
+- 🇷🇺 [@aiogram_ru](https://t.me/aiogram_ru)
+- 🇮🇷 [@aiogram_fa](https://t.me/aiogram_fa)
+- 🇮🇹 [@aiogram_it](https://t.me/aiogram_it)
+- 🇧🇷 [@aiogram_br](https://t.me/aiogram_br)
